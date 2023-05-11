@@ -1,0 +1,11 @@
+pygame
+tqdm
+matplotlib
+pandas
+numpy
+cycler
+kiwisolver
+pyparsing
+python-dateutil
+pytz
+six
