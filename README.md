@@ -91,5 +91,72 @@ The table below shows the performance metrics (Win Rate, Draw Rate, and Executio
 
 Analyzing the values for Tic-Tac-Toe, it is clear that the Minimax algorithm is a better choice as this game contains comparatively a smaller number of states (9), and the game tree is small enough to be fully explored. For Connect 4, Minimax is mostly successful but is not exactly suitable for this game as it contains a greater number of states (42) and the Minimax algorithm could not be further trained in order to increase accuracy. Due to this, the Minimax algorithm may not be able to
 
+## How to Run
+
+### Step 1
+Unzip the AI_Assignment_2.zip
+
+### Step 2
+Open the unzipped folder and launch Terminal/Powershell inside the folder and navigate to /code folder
+
+### Step 3
+Install the requirements by installing the packages in requirement.txt file using the below command
+
+`pip install -r requirements.txt`
+
+### Step 4
+After installation of all the packages, open your python interpreter by using the command below
+
+`python`
+
+Note: if the above command for launching python interpreter does not work, please check your python version or try 'py' or 'python3'
+
+### Step 5
+#### Tic Tac Toe
+
+To launch Tic-Tac-Toe game, import the ttt.py file by using the below command
+
+`import ttt`
+
+Tic Tac Toe game can be run in following three scenarios, run the respective commands
+
+To Run Tic Tac Toe with Player 1 - Minimax and Player 2 - Default Opponent  
+
+`ttt.minimax_vs_default(1)`
+
+To Run Tic Tac Toe with Player 1 - Q Learning and Player 2 - Default Opponent 
+
+`ttt.qlearning_vs_default(5,10000)`
+
+To Run Tic Tac Toe with Player 1 - Minimax and Player 2 - Q Learning 
+
+`ttt.minimax_vs_qlearning(5,10000)`
+
+Note: The first argument in all the above mentioned methods specifies the number of games you want the player to play. The second argument in ttt.qlearning_vs_default() and ttt.minimax_vs_qlearning() is the number of games you want the Q Learning algorithm to be trained. Please note that you need to repeat the procedure from Step - 4 after execution of each method to run another method.
+
+#### Connect 4
+To launch Connect4 game, import the connect4.py file by using the below command
+
+`import connect4`
+
+Connect4 game can be run in following three scenarios, run the respective commands
+
+To Run Connect 4 with Player 1 - Minimax and Player 2 - Default Opponent  
+
+`connect4.minimax_vs_default(1)`
+
+To Run Connect 4 with Player 1 - Q Learning and Player 2 - Default Opponent 
+
+`connect4.qlearning_vs_default(1)`
+
+To Run Connect 4 with Player 1 - Minimax and Player 2 - Q Learning 
+
+`connect4.minimax_vs_qlearning(1)`
+
+Note: The first argument in all the above mentioned methods specifies the number of games you want the player to play. Please note that you need to repeat the procedure from Step - 4 after execution of each method to run another method.
+
+
+
+
 
 
