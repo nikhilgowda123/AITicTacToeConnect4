@@ -101,25 +101,20 @@ Analyzing the values for Tic-Tac-Toe, it is clear that the Minimax algorithm is 
 
 ## How to Run
 
+
 ### Step 1
-Unzip the AI_Assignment_2.zip
-
-### Step 2
-Open the unzipped folder and launch Terminal/Powershell inside the folder and navigate to /code folder
-
-### Step 3
 Install the requirements by installing the packages in requirement.txt file using the below command
 
 `pip install -r requirements.txt`
 
-### Step 4
+### Step 2
 After installation of all the packages, open your python interpreter by using the command below
 
 `python`
 
 Note: if the above command for launching python interpreter does not work, please check your python version or try 'py' or 'python3'
 
-### Step 5
+### Step 3
 #### Tic Tac Toe
 
 To launch Tic-Tac-Toe game, import the ttt.py file by using the below command
